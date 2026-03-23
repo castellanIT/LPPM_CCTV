@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
+        - npm install
     build:
       commands:
         - npm run build
@@ -11,6 +11,3 @@ frontend:
     baseDirectory: build
     files:
       - '**/*'
-  cache:
-    paths:
-      - node_modules/**/*
