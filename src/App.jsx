@@ -76,7 +76,7 @@ export default function App() {
         <div className="splash-bg" />
         <div className="splash-card">
           <span className="logo-icon lg">⬡</span>
-          <div className="logo-title">DW SPECTRUM</div>
+          <div className="logo-title">LPPM Surveillance</div>
           <div className="logo-sub">SURVEILLANCE DASHBOARD</div>
 
           {status === 'connecting' && (
@@ -105,9 +105,9 @@ export default function App() {
       <header className="topbar">
         <div className="topbar-left">
           <span className="logo-icon sm">⬡</span>
-          <span className="topbar-title">DW SPECTRUM</span>
+          <span className="topbar-title">LPPM Surveillance</span>
           <span className="topbar-divider" />
-          <span className="topbar-sub">{session.serverAddress}</span>
+          <span className="topbar-sub">7 East 30th Street</span>
         </div>
 
         <div className="topbar-stats">
